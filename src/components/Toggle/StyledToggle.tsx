@@ -21,6 +21,15 @@ const scaleKeyValues = {
     toggleHeight: "40px",
     toggleWidth: "72px",
   },
+  lg: {
+    handleHeight: "48px",
+    handleWidth: "48px",
+    handleLeft: "6px",
+    handleTop: "6px",
+    checkedLeft: "calc(100% - 54px)",
+    toggleHeight: "60px",
+    toggleWidth: "108px",
+  },
 };
 
 const getScale = (property: ScaleKeys) => ({ scale = scales.MD }: ToggleProps) => {

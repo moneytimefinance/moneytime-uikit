@@ -28,6 +28,7 @@ export declare type Gradients = {
 export declare type Colors = {
     primary: string;
     primaryBright: string;
+    menuBackground: string;
     primaryDark: string;
     secondary: string;
     tertiary: string;

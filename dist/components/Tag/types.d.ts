@@ -8,6 +8,7 @@ export declare const variants: {
     readonly TEXTSUBTLE: "textSubtle";
     readonly BINANCE: "binance";
     readonly FAILURE: "failure";
+    readonly RED: "backgroundRed";
 };
 export declare const scales: {
     readonly MD: "md";

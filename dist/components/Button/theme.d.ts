@@ -1,4 +1,8 @@
 export declare const scaleVariants: {
+    lg: {
+        height: string;
+        padding: string;
+    };
     md: {
         height: string;
         padding: string;

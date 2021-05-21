@@ -34,6 +34,7 @@ export type Gradients = {
 export type Colors = {
   primary: string;
   primaryBright: string;
+  menuBackground: string;
   primaryDark: string;
   secondary: string;
   tertiary: string;

@@ -1,6 +1,10 @@
 import { scales, variants } from "./types";
 
 export const scaleVariants = {
+  [scales.LG]: {
+    height: "64px",
+    padding: "0 32px",
+  },
   [scales.MD]: {
     height: "48px",
     padding: "0 24px",
@@ -37,7 +41,8 @@ export const styleVariants = {
     color: "primary",
   },
   [variants.SUBTLE]: {
-    backgroundColor: "textSubtle",
+    // backgroundColor: "textSubtle",
+    backgroundColor: "card",
     color: "white",
   },
   [variants.DANGER]: {
