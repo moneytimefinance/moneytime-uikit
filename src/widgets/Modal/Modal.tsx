@@ -14,7 +14,7 @@ interface Props extends InjectedProps {
 }
 
 const StyledModal = styled.div`
-  background: rgb(254,251,214,0.95);
+  background: ${({ theme }) => theme.colors.card};;
   box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
   border: 1px solid ${({ theme }) => theme.colors.borderColor};
   border-radius: 32px;

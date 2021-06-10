@@ -30,11 +30,12 @@ export const lightColors: Colors = {
   textDisabled: "#BDC2C4",
   textSubtle: "#a38200",
   borderColor: "#d7ebc6",
-  card: "#68c829",
+  card: "rgb(254,251,214,0.95)",
   
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
+  backgroundImage: "url('/images/coinsbackground.png')"
 };
 
 export const darkColors: Colors = {
@@ -50,12 +51,13 @@ export const darkColors: Colors = {
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
   tertiary: "#353547",
-  text: "#EAE2FC",
+  text: "#ffffff",
   textDisabled: "#666171",
-  textSubtle: "#A28BD4",
+  textSubtle: "#ffffff",
   borderColor: "#524B63",
-  card: "#68c829",
+  card: "rgb(4,48,84,0.95)",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
   },
+  backgroundImage: "url('/images/coinsdarkbackground.png')"
 };
