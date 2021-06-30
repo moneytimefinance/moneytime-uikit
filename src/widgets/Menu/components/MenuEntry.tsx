@@ -29,7 +29,7 @@ const MenuEntry = styled.div<Props>`
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 24px")};
+  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 14px")};
   font-size: ${({ secondary }) => (secondary ? "14px" : "24px")};
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
   color: ${({ theme }) => theme.colors.textSubtle};

@@ -41,12 +41,15 @@ const FloatingPanIcon = styled(PanIcon)`
   animation: ${float} 6s ease-in-out infinite;
   transform: translate3d(0, 0, 0);
 `;
-
+const RadiousImage = styled.img`
+  border-radius: 50%;
+`;
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   return (
     <Container>
-      <RotatingPancakeIcon width={`${size * 0.5}px`} />
-      <FloatingPanIcon width={`${size}px`} />
+      {/* <RotatingPancakeIcon width={`${size * 0.5}px`} />
+      <FloatingPanIcon width={`${size}px`} /> */}
+      <RadiousImage src="/images/spinner.gif" alt="loading..." />
     </Container>
   );
 };
