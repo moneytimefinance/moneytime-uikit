@@ -115,6 +115,16 @@ export const links = [
 
 export const socials = [
   {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/MoneyTimeBSC",
+  },
+  {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://moneytimefinance.medium.com/",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -128,11 +138,7 @@ export const socials = [
       },
     ],
   },
-  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/MoneyTimeBSC",
-  },
+  
 ];
 
 export const MENU_HEIGHT = 64;
